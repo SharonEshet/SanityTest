@@ -28,7 +28,7 @@ public class BreadCrumbs {
         driver.manage().window().maximize();
         Thread.sleep(2000L);
         driver.get("https://www.eshet.com/DomesticHotels/SearchResults?DomesticType=DomesticHotels&HotelCode=-1&HotelAreasCode=ETH&StartDate=23.05.2018&EndDate=26.05.2018&HotelRooms%5B0%5D.Adults=2&HotelRooms%5B0%5D.Children=0&HotelRooms%5B0%5D.Infants=0");
-        Thread.sleep(200000L);
+        Thread.sleep(400000L);
 
     Screen bce=new Screen();//BCEilatHotel--- Search
         bce.find("C://Images/BreadCrumbs/BCEilatHotel.PNG");
