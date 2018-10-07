@@ -26,7 +26,7 @@ public class BreadCrumbs {
     @Test
     public void Test1() throws InterruptedException, FindFailed {
         driver.manage().window().maximize();
-        Thread.sleep(4000L);
+        Thread.sleep(2000L);
         driver.get("https://www.eshet.com/DomesticHotels/SearchResults?DomesticType=DomesticHotels&HotelCode=-1&HotelAreasCode=ETH&StartDate=23.05.2018&EndDate=26.05.2018&HotelRooms%5B0%5D.Adults=2&HotelRooms%5B0%5D.Children=0&HotelRooms%5B0%5D.Infants=0");
         Thread.sleep(4000L);
 
