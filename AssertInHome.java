@@ -31,7 +31,7 @@ public class AssertInHome extends Testsh {
         WebElement element1 = driver.findElement(By.xpath("//*[@id=\"page-wrapper\"]/div[1]/header/div/div[1]/div/div/ul/li[4]/div[1]"));
         String actualValue = element1.getText();
         Assert.assertEquals("חופשה בארץ", actualValue);
-        //Details to back
+        //Details to back- sh
         WebElement element3 = driver.findElement(By.xpath("//*[@class='contact-us-greet']"));
         String actualValue2 = element3.getText();
         Assert.assertEquals("הנכם מוזמנים לפנות לנציגי המכירות והשירות בכל נושא ואנו נחזור אלכם בהקדם", actualValue2);
