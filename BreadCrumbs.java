@@ -18,7 +18,7 @@ public class BreadCrumbs {
     public void openwindow() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:/SeleniumDrivers/Java/Driver/update/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.get("https://www.eshet.com/domestichotels/");
+        driver.get("https://www.eshet.com/domestichotels/");//Sharon Maymon#####
         driver.manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
 
     }
