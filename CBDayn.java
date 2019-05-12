@@ -33,6 +33,8 @@ public class CBDayn extends Testsh{
         Thread.sleep(1000L);
         SearchAgain();
         Thread.sleep(1000L);
+		Thread.sleep(1000L);
+		Thread.sleep(1000L);
         Pay();
     }
 
