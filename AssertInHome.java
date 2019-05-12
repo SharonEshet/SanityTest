@@ -22,7 +22,7 @@ public class AssertInHome extends Testsh {
     @Test
     public void test4() throws InterruptedException, FindFailed {
         driver.manage().window().maximize();
-        Thread.sleep(2000L);
+        Thread.sleep(2000L)
         CheckAsseration();
     }
 
