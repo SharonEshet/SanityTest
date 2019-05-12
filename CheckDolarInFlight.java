@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class CheckDolarInFlight extends Testsh {
 
     @Before
-     public  void 
+    public void openwindow() throws InterruptedException, FindFailed {
         openChrome();
         }
 
