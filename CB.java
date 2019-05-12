@@ -29,6 +29,7 @@ public class CB extends Testsh {
         Thread.sleep(1000L);
         Search();
         Thread.sleep(1000L);
+		Thread.sleep(1000L);
         SearchAgain();
 //Sharon
 
