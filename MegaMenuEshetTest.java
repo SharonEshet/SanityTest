@@ -27,6 +27,7 @@ public class MegaMenuEshetTest extends Testsh{
         driver.manage().window().maximize();
 
         Thread.sleep(2000L);
+		Thread.sleep(2000L);
 
         // Click on Mega Menu
         driver.findElement(By.xpath("//*[@id=\"page-wrapper\"]/div[1]/header/div/div[2]/div/div/ul/li[2]")).click();
