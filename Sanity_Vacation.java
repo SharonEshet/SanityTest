@@ -26,6 +26,7 @@ public class Sanity_Vacation extends Testsh{
     @Test
     public void test1() throws InterruptedException {
         Thread.sleep(2000L);
+		Thread.sleep(2000L);
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//*[@id=\"wizardWrapper\"]/div[2]/div/div[1]/div/ul/li[1]/a/span")).click();
         Thread.sleep(2000L);
