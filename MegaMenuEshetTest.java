@@ -1,4 +1,4 @@
-package SanityTest;
+//package SanityTest;
 
 import org.junit.Before;
 import org.junit.Test;
