@@ -1,5 +1,4 @@
 package SanityTest;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.Alert;
@@ -9,14 +8,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.sikuli.script.FindFailed;
 import org.testng.Assert;
-
 import java.util.concurrent.TimeUnit;
-
-
 public class AssertInHome extends Testsh {
     @Before
      public void openwindow() throws InterruptedException, FindFailed {
-
         openChrome();
     }
     @Test
@@ -25,7 +20,6 @@ public class AssertInHome extends Testsh {
         Thread.sleep(2000L)
         CheckAsseration();
     }
-
     public void CheckAsseration() throws InterruptedException, FindFailed {
         // Check Headlines
         WebElement element1 = driver.findElement(By.xpath("//*[@id=\"page-wrapper\"]/div[1]/header/div/div[1]/div/div/ul/li[4]/div[1]"));
