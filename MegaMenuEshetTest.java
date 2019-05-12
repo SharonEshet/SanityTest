@@ -12,9 +12,9 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class MegaMenuEshetTest extends Testsh{
+//public class MegaMenuEshetTest extends Testsh{
     @Before
-    public void openwindow() throws InterruptedException {
+ //   public void openwindow() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:/SeleniumDrivers/Java/Driver/update/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(test1);
